@@ -1,4 +1,4 @@
-# E-Commerce Management System (User Input Version)
+# E-Commerce Management System 
 
 class Product:
     def __init__(self, product_id, name, category, stock, price, seller_id):
@@ -102,10 +102,6 @@ class Payment:
         self.status = "Success"
         print("Payment Successful")
 
-
-# ---------------- MAIN PROGRAM ---------------- #
-
-# Taking Product Input from User
 product_id = int(input("Enter Product ID: "))
 name = input("Enter Product Name: ")
 category = input("Enter Category: ")
